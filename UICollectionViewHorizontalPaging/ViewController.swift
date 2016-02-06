@@ -8,8 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CollectionViewCell : UICollectionViewCell {
+	@IBOutlet weak var imageView: UIImageView!
+}
 
+class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+
+	let reuseIdentifier = "collectionViewCellId"
+	
+	@IBOutlet weak var collectionView: UICollectionView!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +28,23 @@ class ViewController: UIViewController {
 		// Dispose of any resources that can be recreated.
 	}
 
+	// MARK: - UICollectionViewDataSource
+	
+	func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+		return 1
+	}
+	
+	func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+		return 6
+	}
+	
+	func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+		let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! CollectionViewCell
+		
+		cell.imageView.backgroundColor = UIColor.redColor()
+		
+		return cell
+	}
 
 }
 
