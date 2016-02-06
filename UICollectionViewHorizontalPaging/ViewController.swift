@@ -35,13 +35,13 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 	}
 	
 	func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-		return 6
+		return 20
 	}
 	
 	func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
 		let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! CollectionViewCell
 		
-		cell.imageView.backgroundColor = UIColor.redColor()
+		cell.imageView.backgroundColor = UIColor.randomColor()
 		
 		return cell
 	}
