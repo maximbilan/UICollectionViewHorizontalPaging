@@ -13,6 +13,7 @@
 		6DE950051C64957000B90C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE950041C64957000B90C9F /* Assets.xcassets */; };
 		6DE950081C64957000B90C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE950061C64957000B90C9F /* LaunchScreen.storyboard */; };
 		943B124E1C666506009E3AAD /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943B124D1C666506009E3AAD /* UIColorExtensions.swift */; };
+		943B12501C6668B2009E3AAD /* CenterViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943B124F1C6668B2009E3AAD /* CenterViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6DE950071C64957000B90C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DE950091C64957000B90C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		943B124D1C666506009E3AAD /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		943B124F1C6668B2009E3AAD /* CenterViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				6DE950061C64957000B90C9F /* LaunchScreen.storyboard */,
 				6DE950091C64957000B90C9F /* Info.plist */,
 				943B124D1C666506009E3AAD /* UIColorExtensions.swift */,
+				943B124F1C6668B2009E3AAD /* CenterViewFlowLayout.swift */,
 			);
 			path = UICollectionViewHorizontalPaging;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				943B124E1C666506009E3AAD /* UIColorExtensions.swift in Sources */,
 				6DE950001C64957000B90C9F /* ViewController.swift in Sources */,
 				6DE94FFE1C64957000B90C9F /* AppDelegate.swift in Sources */,
+				943B12501C6668B2009E3AAD /* CenterViewFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
