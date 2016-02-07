@@ -18,18 +18,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 	
 	@IBOutlet weak var collectionView: UICollectionView!
 	
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
-	}
-
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
-	}
-
-	// MARK: - UICollectionViewDataSource
-	
 	func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
 		return 1
 	}
@@ -47,4 +35,3 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 	}
 
 }
-
