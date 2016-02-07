@@ -60,12 +60,12 @@
 			children = (
 				6DE94FFD1C64957000B90C9F /* AppDelegate.swift */,
 				6DE94FFF1C64957000B90C9F /* ViewController.swift */,
-				6DE950011C64957000B90C9F /* Main.storyboard */,
-				6DE950041C64957000B90C9F /* Assets.xcassets */,
-				6DE950061C64957000B90C9F /* LaunchScreen.storyboard */,
-				6DE950091C64957000B90C9F /* Info.plist */,
-				943B124D1C666506009E3AAD /* UIColorExtensions.swift */,
 				943B124F1C6668B2009E3AAD /* CenterViewFlowLayout.swift */,
+				943B124D1C666506009E3AAD /* UIColorExtensions.swift */,
+				6DE950011C64957000B90C9F /* Main.storyboard */,
+				6DE950061C64957000B90C9F /* LaunchScreen.storyboard */,
+				6DE950041C64957000B90C9F /* Assets.xcassets */,
+				6DE950091C64957000B90C9F /* Info.plist */,
 			);
 			path = UICollectionViewHorizontalPaging;
 			sourceTree = "<group>";
