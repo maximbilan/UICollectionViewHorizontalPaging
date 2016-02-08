@@ -39,6 +39,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D8F0B091C6896D7006C87E0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6DE94FFD1C64957000B90C9F /* AppDelegate.swift */,
+				6DE94FFF1C64957000B90C9F /* ViewController.swift */,
+				943B124F1C6668B2009E3AAD /* CenterViewFlowLayout.swift */,
+				943B124D1C666506009E3AAD /* UIColorExtensions.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		6D8F0B0A1C6896DD006C87E0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6DE950011C64957000B90C9F /* Main.storyboard */,
+				6DE950061C64957000B90C9F /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		6D8F0B0B1C6896E2006C87E0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6DE950041C64957000B90C9F /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		6D8F0B0C1C6896E6006C87E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DE950091C64957000B90C9F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		6DE94FF11C64957000B90C9F = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +94,10 @@
 		6DE94FFC1C64957000B90C9F /* UICollectionViewHorizontalPaging */ = {
 			isa = PBXGroup;
 			children = (
-				6DE94FFD1C64957000B90C9F /* AppDelegate.swift */,
-				6DE94FFF1C64957000B90C9F /* ViewController.swift */,
-				943B124F1C6668B2009E3AAD /* CenterViewFlowLayout.swift */,
-				943B124D1C666506009E3AAD /* UIColorExtensions.swift */,
-				6DE950011C64957000B90C9F /* Main.storyboard */,
-				6DE950061C64957000B90C9F /* LaunchScreen.storyboard */,
-				6DE950041C64957000B90C9F /* Assets.xcassets */,
-				6DE950091C64957000B90C9F /* Info.plist */,
+				6D8F0B091C6896D7006C87E0 /* Sources */,
+				6D8F0B0A1C6896DD006C87E0 /* UI */,
+				6D8F0B0B1C6896E2006C87E0 /* Assets */,
+				6D8F0B0C1C6896E6006C87E0 /* Supporting Files */,
 			);
 			path = UICollectionViewHorizontalPaging;
 			sourceTree = "<group>";

@@ -33,7 +33,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="collectionViewCellId" id="d6P-nS-bqc" customClass="CollectionViewCell" customModule="UICollectionViewHorizontalPaging" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.5" width="138" height="138"/>
+                                        <rect key="frame" x="0.0" y="1" width="138" height="138"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="138" height="138"/>
