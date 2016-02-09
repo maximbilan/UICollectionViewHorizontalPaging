@@ -12,7 +12,7 @@ class CollectionViewCell : UICollectionViewCell {
 	@IBOutlet weak var imageView: UIImageView!
 }
 
-class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+class ViewController: UIViewController, UICollectionViewDataSource {
 
 	let reuseIdentifier = "collectionViewCellId"
 	
