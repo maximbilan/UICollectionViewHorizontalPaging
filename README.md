@@ -4,7 +4,7 @@ I would like to provide example how to do horizontal page scrolling using <i>UIC
 
 ![alt tag](https://raw.github.com/maximbilan/UICollectionViewHorizontalPaging/master/img/1.gif)
 
-Please set up <i>isPaggingEnabled</i> property to ‘<b>YES</b>’ for the collection view object. Or via <i>Interface Builder</i>:
+Please set up <i>isPaggingEnabled</i> property to <b>YES</b> for the collection view object. Or via <i>Interface Builder</i>:
 
 ![alt tag](https://raw.github.com/maximbilan/UICollectionViewHorizontalPaging/master/img/2.png)
 
