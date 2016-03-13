@@ -84,5 +84,3 @@ class CenterViewFlowLayout: UICollectionViewFlowLayout {
 	
 }
 </pre>
-
-The full source code of example you can found in this repository.
