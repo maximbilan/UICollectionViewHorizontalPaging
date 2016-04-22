@@ -12,7 +12,7 @@ And let’s create custom class for flow layout:
 
 ![alt tag](https://raw.github.com/maximbilan/UICollectionViewHorizontalPaging/master/img/3.png)
 
-Please use this the following code:
+Please use the following code:
 
 <pre>
 import UIKit
