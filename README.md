@@ -1,6 +1,6 @@
 # iOS UICollectionView Page Scrolling
 
-I would like to provide example how to do horizontal page scrolling using <i>UICollectionView</i>.
+I would like to provide an example how to do horizontal page scrolling using <i>UICollectionView</i>.
 
 ![alt tag](https://raw.github.com/maximbilan/UICollectionViewHorizontalPaging/master/img/1.gif)
 
