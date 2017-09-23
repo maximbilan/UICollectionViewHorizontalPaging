@@ -8,7 +8,7 @@ Please set up <i>isPaggingEnabled</i> property to <b>YES</b> for the collection 
 
 ![alt tag](https://raw.github.com/maximbilan/UICollectionViewHorizontalPaging/master/img/2.png)
 
-And let’s create custom class for flow layout:
+And let’s create a custom class for flow layout:
 
 ![alt tag](https://raw.github.com/maximbilan/UICollectionViewHorizontalPaging/master/img/3.png)
 
