@@ -16,7 +16,7 @@ class CenterViewFlowLayout: UICollectionViewFlowLayout {
 		let count = self.collectionView?.dataSource?.collectionView(self.collectionView!, numberOfItemsInSection: 0)
 		let canvasSize = self.collectionView!.frame.size
 		var contentSize = canvasSize
-		if self.scrollDirection == UICollectionViewScrollDirection.horizontal {
+		if self.scrollDirection == UICollectionView.ScrollDirection.horizontal {
 			let rowCount = Int((canvasSize.height - self.itemSize.height) / (self.itemSize.height + self.minimumInteritemSpacing) + 1)
 			let columnCount = Int((canvasSize.width - self.itemSize.width) / (self.itemSize.width + self.minimumLineSpacing) + 1)
 			let page = ceilf(Float(count!) / Float(rowCount * columnCount))
@@ -44,7 +44,7 @@ class CenterViewFlowLayout: UICollectionViewFlowLayout {
 		cellFrame.size.width = self.itemSize.width
 		cellFrame.size.height = self.itemSize.height
 		
-		if self.scrollDirection == UICollectionViewScrollDirection.horizontal {
+		if self.scrollDirection == UICollectionView.ScrollDirection.horizontal {
 			cellFrame.origin.x += CGFloat(page) * canvasSize.width
 		}
 		
